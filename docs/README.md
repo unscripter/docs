@@ -1,14 +1,14 @@
 ---
 home: true
-heroImage: /vuepress-logo.png
-actionText: Call to Action →
+name: Anatta Documentation
+heroImage: /anatta.png
+actionText: Documentation →
 actionLink: /basic/
 features:
-- title: Feature No. 1
-  details: Here you can talk about feature number 1.
-- title: Feature No. 2
-  details: Here you can talk about feature number 2.
-- title: Feature No. 3
-  details: Here you can talk about feature number 3.
-footer: This is your homepage footer
+- title: What is Anatta
+  details: We are an e-com business
+- title: Vision
+  details: Allow e-com make more money
+- title: Website
+  details: anatta.io
 ---

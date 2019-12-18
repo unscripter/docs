@@ -1,15 +1,14 @@
 module.exports = {
-  title: 'VuePress Starter Kit',
-  description: 'This is your page description.',
+  title: 'Anatta Documentation',
+  description: 'Anatta documentation for all projects',
   themeConfig: {
-    // logo: '/vuepress-logo.png',
-    // lastUpdated: 'Last updated',
-    // repo: 'https://github.com/bencodezen/vuepress-starter-kit',
-    // docsDir: 'docs',
-    // editLinks: true,
-    // editLinkText: 'Recommend a change',
-    nav: [
-      {
+    logo: '/anatta.png',
+    lastUpdated: 'Last updated',
+    repo: 'https://github.com/bencodezen/vuepress-starter-kit',
+    docsDir: 'docs',
+    editLinks: true,
+    editLinkText: 'Recommend a change',
+    nav: [ {
         text: 'Home',
         link: '/'
       },
@@ -19,8 +18,7 @@ module.exports = {
       },
       {
         text: 'Section',
-        items: [
-          {
+        items: [ {
             text: 'Section Introduction',
             link: '/section/#section-introduction'
           },
@@ -32,8 +30,7 @@ module.exports = {
       },
       {
         text: 'Contact',
-        items: [
-          {
+        items: [ {
             text: 'Twitter',
             link: 'https://www.twitter.com/'
           },
@@ -48,6 +45,6 @@ module.exports = {
         link: '/component-example'
       }
     ],
-    plugins: ['@vuepress/active-header-links']
+    plugins: [ '@vuepress/active-header-links' ]
   }
 }

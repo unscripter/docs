@@ -1,8 +1,6 @@
-# VuePress Starter Kit
+# Anatta Documentation
 
-A sample project to let you see what makes VuePress so great!
-
-## Getting Setup
+Documentation hub for all Anatta Design documentation
 
 ### Requirements
 
@@ -10,14 +8,14 @@ A sample project to let you see what makes VuePress so great!
 
 ### Instructions
 
-1.  Clone the repo
-2.  Run `yarn` or `npm install`
-3.  Run `yarn dev` or `npm run dev`
+1.  Clone the repo ``` git clone https://github.com/anattadesign/anatta-docs.git
+2.  Run `yarn` or `yarn`
+3.  Run `yarn dev` or `yarn dev`
 
 ## Contributing
 
 This site is built on [VuePress](https://vuepress.vuejs.org/). Please see their [Guide](https://vuepress.vuejs.org/guide/) for more information on how it works.
 
-## Deployment
+<!-- ## Deployment
 
-If you haven't tried it yet, [Netlify](https://www.netlify.com) is highly recommended!
+If you haven't tried it yet, [Netlify](https://www.netlify.com) is highly recommended! -->
