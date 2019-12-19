@@ -1,6 +1,7 @@
 module.exports = {
   title: 'Anatta Documentation Guide',
   description: 'Anatta documentation for all projects',
+  base: '/docs/',
   themeConfig: {
     logo: '/anatta.png',
     lastUpdated: 'Last updated',
@@ -15,6 +16,10 @@ module.exports = {
       {
         text: 'Clients',
         link: '/clients/'
+      },
+      {
+        text: 'Employees',
+        link: '/employees/'
       },
       {
         text: 'Projects',
@@ -40,11 +45,11 @@ module.exports = {
       }
     ],
     sidebar: {
-      '/projects/rothys/': [ {
+      '/projects/rothys': [ {
         title: 'Rothys',
         collapsable: false,
         children: [
-          'rothys',
+          'rothys/',
           'rothys/development'
         ]
       } ],
