@@ -1,10 +1,10 @@
 module.exports = {
-  title: 'Anatta Documentation',
+  title: 'Anatta Documentation Guide',
   description: 'Anatta documentation for all projects',
   themeConfig: {
     logo: '/anatta.png',
     lastUpdated: 'Last updated',
-    repo: 'https://github.com/bencodezen/vuepress-starter-kit',
+    repo: 'https://github.com/anattadesign/anatta-docs',
     docsDir: 'docs',
     editLinks: true,
     editLinkText: 'Recommend a change',
@@ -13,20 +13,18 @@ module.exports = {
         link: '/'
       },
       {
-        text: 'Basic Page',
-        link: '/basic/'
+        text: 'Clients',
+        link: '/clients/'
       },
       {
-        text: 'Section',
+        text: 'Projects',
         items: [ {
-            text: 'Section Introduction',
-            link: '/section/#section-introduction'
-          },
-          {
-            text: 'Some More Content!',
-            link: '/section/#some-more-content'
-          }
-        ]
+          text: `Storefront`,
+          link: '/projects/storefront/'
+        }, {
+          text: `Rothys`,
+          link: '/projects/rothys/'
+        } ]
       },
       {
         text: 'Contact',
@@ -39,12 +37,62 @@ module.exports = {
             link: 'mailto:hello@email.com'
           }
         ]
-      },
-      {
-        text: 'Component Example',
-        link: '/component-example'
       }
     ],
+    sidebar: {
+      '/projects/rothys/': [ {
+        title: 'Rothys',
+        collapsable: false,
+        children: [
+          'rothys',
+          'rothys/development'
+        ]
+      } ],
+      '/projects/storefront': [ {
+          title: 'General Information',
+          collapsable: false,
+          children: [
+            'storefront/',
+          ]
+        },
+        {
+          title: 'Directory Structure',
+          collapsable: false,
+          children: [
+            'storefront/directory'
+          ]
+        },
+        {
+          title: 'Development Guide',
+          collapsable: false,
+          children: [
+            'storefront/development'
+          ]
+        },
+        {
+          title: 'Basics',
+          collapsable: false,
+          children: [
+            'storefront/typescript'
+          ]
+        },
+        {
+          title: 'Integrations',
+          collapsable: false,
+          children: [
+            'storefront/integrations'
+          ]
+        },
+        {
+          title: 'Schema',
+          collapsable: false,
+          children: [
+            'storefront/schema'
+          ]
+        },
+
+      ]
+    },
     plugins: [ '@vuepress/active-header-links' ]
   }
 }

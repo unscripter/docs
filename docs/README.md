@@ -3,7 +3,7 @@ home: true
 name: Anatta Documentation
 heroImage: /anatta.png
 actionText: Documentation →
-actionLink: /basic/
+actionLink: /clients/
 features:
 - title: What is Anatta
   details: We are an e-com business
